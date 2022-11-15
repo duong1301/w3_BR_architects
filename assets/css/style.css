@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    line-height: 1.5;
+    font-family: Verdana, sans-serif;
+}
+
+
+.nav-bar{
+    padding: 8px 16px;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.home-btn{
+    display: inline-block;
+    padding: 8px 16px;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+
+.nav{
+    font-size: 15px;
+    letter-spacing: 4px;
+    float: right;
+    overflow: hidden;
+}
+
+.nav li{
+    float: left;
+    overflow: hidden;
+    
+}
+
+.nav li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.home-btn:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    background-color: #ccc;
+}
+
+.slider{
+    position: relative;
+    margin:0 auto;
+    max-width: 1500px;    
+    width: 100%;
+    /* background-color:indianred; */
+
+}
+
+.slider__image{
+    width: 100%;
+    max-width:1500px;
+   
+}
+
+.slider__text{
+    
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 36px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider__text b{
+    color: #ffffff;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color:#000;
+    opacity: 0.75;
+}
+
+.slider__text span{
+    color: #f1f1f1;
+}
+
+#content{
+    max-width: 1500px;
+    padding: 32px 22px 10px;
+    margin: 0 auto;
+}
+
+.col-four-layout{
+    display: flex;
+    margin: 0px -8px;
+    flex-wrap: wrap;
+}
+
+.content .item{
+    position: relative;
+    width:25%;
+    padding: 8px;
+}
+
+
+
+.content .item .image{
+    width: 100%;
+    display: block;
+}
+
+.content .item .label{
+    color:#fff;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #000;
+    font-weight: 400;
+    max-width: 100%;
+}
+
+#content .heading{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 16px 0px;
+    margin: 10px 0px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+
+
+#content .content{
+    padding: 20px 0px;
+}
+
+
+.about-section .para{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.member-item .name{
+    line-height: 1.5;
+    margin: 10px 0px;
+    font-weight: 400;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+}
+
+.member-item .member-image{
+    filter: grayscale(0.75);
+}
+
+.member-item .position{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 16px 0px;
+    opacity: 0.5;
+}
+
+.member-item .contact-btn{
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 16px 0px 0px 0px;
+}
+
+.member .contact-btn:hover{
+    background-color: #ccc;
+}
+
+.about-section .member{
+    margin: 48px 0px;
+    margin: 32px -8px;
+}
+.about-section .para{
+    font-size: 15px;
+}
+
+.contact-section{
+    padding-bottom: 32px;
+}
+
+.contact-section .form-input input{
+    padding: 8px 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-section .form-input{
+    margin: 20px 0px;
+}
+
+.contact-section .send-btn{
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    border: none;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    margin: 10px 0px;
+}
+
+
+.map-section .map-image{
+    width: 100%;
+    display: block;
+}
+
+#footer{
+    background-color: black;
+}
+
+#footer .footer__text, .footer__text a{
+    color: white;
+    padding: 32px 0px;
+    text-align: center;
+    line-height: 1.5;
+}
